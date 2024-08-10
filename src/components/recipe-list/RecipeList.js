@@ -48,6 +48,10 @@ const RecipeList = ({ recipeList }) => {
 
                 }
             </div>
+            <div className='text-center'>
+            <Link href='/'><button className='bg-orange-500 rounded p-2 m-4'>Back Home</button></Link> 
+            </div>
+            
         </div>
     );
 };

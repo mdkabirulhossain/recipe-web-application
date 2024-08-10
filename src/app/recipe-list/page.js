@@ -1,4 +1,5 @@
 import RecipeList from '@/components/recipe-list/RecipeList';
+import Link from 'next/link';
 import React from 'react';
 
 async function fetchOfRecipes() {
@@ -17,6 +18,7 @@ const Recipes =async () => {
     return (
         <div>
             <RecipeList recipeList={recipeList}/>
+            
         </div>
     );
 };
