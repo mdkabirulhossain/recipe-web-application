@@ -7,7 +7,7 @@ import {
 import Link from 'next/link';
 
 const RecipeList = ({ recipeList }) => {
-    console.log(recipeList?.recipes);
+    // console.log(recipeList?.recipes);
     const { recipes } = recipeList;
     return (
         <div>
