@@ -5,6 +5,7 @@ const RecipeDetails = ({ recipeDetails }) => {
     console.log(recipeDetails);
     return (
         <div>
+            <h1 className='text-center font-extrabold text-4xl p-4 m-2'>More Details About: {recipeDetails?.name}</h1>
             <div className='p-6 lg:max-w-6xl max-w-2xl mx-auto'>
                 <div className='md:grid grid-cols-2 gap-20'>
                     <div className='m-2'>
